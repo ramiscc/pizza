@@ -1,0 +1,66 @@
+.modalCenter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(25, 25, 25, 0.40);
+  backdrop-filter: blur(16px);
+}
+
+.modalRight{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(25, 25, 25, 0.40);
+  backdrop-filter: blur(16px);
+}
+
+
+.contentCenter{
+  position: absolute;
+  border-radius: 24px;
+  background: var(--bg-gray);
+  padding: 20px;
+}
+
+.contentRight{
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  background: var(--bg-gray);
+  padding: 20px;
+}
+
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: -45px;
+  top: 0;
+  width: 32px;
+  height: 32px;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: var(--white);
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+

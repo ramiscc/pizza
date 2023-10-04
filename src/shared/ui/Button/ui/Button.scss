@@ -1,0 +1,15 @@
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  padding: 13px 40px;
+  font-family: var(--font-family-main);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}

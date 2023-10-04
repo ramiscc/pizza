@@ -1,0 +1,27 @@
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-family-ui);
+}
+
+.options {
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  background: var(--white);
+  top: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--line-gray);
+  background: var(--white);
+  box-shadow: 0 2px 8px 0 rgba(25, 25, 25, 0.10);
+  div {
+    font-family: var(--font-family-ui);
+    padding: 10px;
+  }
+}
